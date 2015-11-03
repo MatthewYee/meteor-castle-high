@@ -22,6 +22,16 @@ Router.route('/add', {
   name: 'AddStuff'
 });
 
+Router.route('/StudentParents', {
+  name: 'StudentParents'
+});
+Router.route('/FacultyStaff', {
+  name: 'FacultyStaff'
+});
+Router.route('/Alumni',{
+  name: 'Alumni'
+});
+
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
